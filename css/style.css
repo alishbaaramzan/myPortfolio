@@ -296,3 +296,38 @@ p{
 .footer_wrapper .footer-text a{
     color: var(--primary-color);
 }
+
+/* Custom class for project images */
+.project-image {
+    max-width: 50%; 
+    height: auto;
+    margin: 0 auto;
+}
+
+.custom-carousel-control {
+    filter: none; /* Remove any existing filter */
+}
+
+.custom-carousel-control .carousel-control-prev-icon,
+.custom-carousel-control .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Black background */
+    border-radius: 50%; /* Rounded controls */
+    padding: 10px; /* Add padding for better visibility */
+}
+
+.custom-carousel-control .carousel-control-prev-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="%23fff" viewBox="0 0 8 8"><path d="M5.5 0L4.5 1 2.5 4 4.5 7 5.5 8 3 4z"/></svg>');
+}
+
+.custom-carousel-control .carousel-control-next-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="%23fff" viewBox="0 0 8 8"><path d="M2.5 0L3.5 1 5.5 4 3.5 7 2.5 8 5 4z"/></svg>');
+}
+
+.carousel-caption {
+    background-color: rgba(255, 255, 255, 0.7); 
+    color: #000; 
+    padding: 20px; 
+    border-radius: 10px; }
+
+
+

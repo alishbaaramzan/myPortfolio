@@ -18,3 +18,10 @@ navBar.forEach(function(a){
         navCollapse.classList.remove("show");
     })
 })
+
+document.addEventListener('DOMContentLoaded', function () {
+    var myCarousel = new bootstrap.Carousel(document.getElementById('projectCarousel'), {
+        interval: 5000,  // Set the interval for automatic sliding (if needed)
+        // other options as needed
+    });
+});
